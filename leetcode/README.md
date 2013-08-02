@@ -24,7 +24,7 @@ Solutions of problems on [LeetCode](http://leetcode.com/onlinejudge).
 | 126 | Word Ladder II | O(26nL) bfs | medium | search ||
 | 128 | Longest Consecutive Sequence | O(n). Start from any integer in the set, try to extend as far as possible in both directions. Remove the used integers from the set. | medium | trick ||
 
-[link_004]:https://www.google.com/#sclient=psy-ab&q=+Median+of+Two+Sorted+Arrays&oq=+Median+of+Two+Sorted+Arrays&gs_l=hp.3..0l4.1841.3363.0.3572.2.2.0.0.0.0.287.475.0j1j1.2.0....0...1c.1.23.psy-ab..0.2.457.QUABEQxYIyo&pbx=1&bav=on.2,or.r_cp.r_qf.&bvm=bv.50165853%2Cd.bmk%2Cpv.xjs.s.en_US.seW1cfrvSKg.O&fp=86d0e4457897635e&biw=1280&bih=923
+[link_004]:https://www.google.com/#q=Median+of+Two+Sorted+Arrays+leetcode
 [link_099]:http://en.wikipedia.org/wiki/Threaded_binary_tree
 
 *To be supplemented.*
