@@ -9,7 +9,7 @@ Solutions of problems on [LeetCode](http://leetcode.com/onlinejudge).
 |---:|:---|:---|:---:|:---:|:---|
 | 004 | Median of Two Sorted Arrays | A more general question: Kth of two sorted arrays.<br>Each time compare the k/2th element of the two arrays, and narrow down the range to half.<br>Refer to [google][link_004]. | hard | trick, binary search ||
 | 010 | Regular Expression Matching | O(mn) DP. | medium | string, dp ||
-| 044 | Wildcard Matching | O(m+n): split the pattern string with '*' into P[]. For P[i], greedily match it to the earlest substring in S. Then for P[i+1], match it to the earlest substring in the rest of S. Go on like this. Do each matching using KMP can make the amortized time O(m+n). | hard | string, kmp, greedy, dp ||
+| 044 | Wildcard Matching | O(m+n): split the pattern string with '\*' into P[]. For P[i], greedily match it to the earlest substring in S. Then for P[i+1], match it to the earlest substring in the rest of S. Go on like this. Do each matching using KMP can make the amortized time O(m+n). | hard | string, kmp, greedy, dp ||
 | 065 | Valid Number | Think in automata way. Don't miss details. | medium | simulate ||
 | 076 | Minimum Window Substring | Two pointers sweeping(much like a deque representing the window). Count the number of each character in current window. In each step, minimize the window to make it *just* satisfy the need. | medium | deque, sweeping, hash ||
 | 086 | Partition List | Two pointers. One points to the tail of the 'less than' part of the list. The other points to the 'currently processing' node. | easy | list ||
